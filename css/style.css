@@ -72,3 +72,11 @@ font-size: 16px;
     color:white;
     background: linear-gradient(40deg, #46a1e9, #2d7cbe) !important;
 }
+@media only screen and (max-width: 600px) {
+.box-s{
+   
+    width: 100%;
+    
+   
+}
+}
