@@ -1,0 +1,74 @@
+.main{
+	height: 100vh;	
+    background-image: url(../img/bg2.jpg);
+    background-size: cover;
+}
+.box-s{
+    background: white;
+    width: 35%;
+    height: 100vh;
+    padding: 50px;
+    padding-top: 100px;
+        box-shadow: -4px 0px 30px 2px #131212a1;
+}
+.c-white{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.form-control{
+      border: none;
+    border-bottom: 2px solid #da39c5;
+    border-radius: unset;
+    padding: 30px;
+    letter-spacing: 1px;
+    padding-left: 5px;
+  
+    
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: unset;
+    outline: 0;
+    box-shadow: unset;
+}
+.btn{
+        letter-spacing: 5px;
+    font-size: 14px;
+}
+.blue-gradient{
+    width:100%;
+        background: linear-gradient(40deg, #8c51c6, #da39c5) !important;
+          transition: 5s;
+}
+.blue-gradient:hover{
+ background: linear-gradient(40deg, #da39c5, #8c51c6) !important;
+}
+p{
+font-size: 16px;
+    color: #80808087;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+}
+.blue-twitter{
+     width:100%;
+        background: linear-gradient(40deg, #37abd3, #65ddf9) !important;
+        color:white;
+          transition: 5s;
+}
+.blue-twitter:hover{
+    color:white;
+    background: linear-gradient(40deg, #65ddf9, #37abd3) !important;
+}
+.blue-facebook{
+       width:100%;
+        background: linear-gradient(40deg, #2d7cbe, #46a1e9) !important;
+        color:white;
+          transition: 5s;
+}
+.blue-facebook:hover{
+    color:white;
+    background: linear-gradient(40deg, #46a1e9, #2d7cbe) !important;
+}
